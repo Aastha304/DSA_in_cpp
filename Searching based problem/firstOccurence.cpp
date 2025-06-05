@@ -20,7 +20,7 @@ int firstocc(vector<int> arr, int k){
 }
 
 int main(){
-    vector<int> arr = {1,1,2,2,9,9,9,9};
+    vector<int> arr = {1,2,2,9,9,9,9};
     cout<<firstocc(arr, 2);
 
     return 0;
